@@ -1,0 +1,69 @@
+GIT Commands
+
+$ history 200
+    1  ls
+    2  cd desktop
+    3  cd git
+    4  cd psp
+    5  cd git
+    6  ls
+    7  ls
+    8  git help
+    9  git config --list
+   10  git config --global user.name "vaishnavi"
+   11  git config user.name
+   12  git config --global user.email panugantivaishnavi1998@gmail.com
+   13  git config user.email
+   14  git init
+   15  ls -a
+   16  cd .git/
+   17  ls
+   18  cat config
+   19  cd ..
+   20  git add data.txt data.txt
+   21  git status
+   22  git rm --cached <data.txt>...
+   23  git status
+   24  git add data.txt
+   25  git status
+   26  git commit -m "Inital Commit"
+   27  git status
+   28  git add data2.txt
+   29  git status
+   30  git commit -m "Second commit"
+   31  git status
+   32  git log
+   33  cat data2.txt
+   34  echo "first line data" > data2.txt
+   35  cat data2.txt
+   36  git status
+   37  git add data2.txt
+   38  ls
+   39  git add data2.txt
+   40  cat data2.txt
+   41  echo "second line data" >> data2.txt
+   42  cat data2.txt
+   43  git status
+   44  echo {1..100}
+   45  touch {1..100}
+   46  ls
+   47  touch data{1..100}
+   48  touch data{1..100}.txt
+   49  ls
+   50  ls
+   51  git commit -m "added 10 files"
+   52  git add *.txt
+   53  git add *.txt
+   54  ls
+   55  git commit -m "added 10files"
+   56  rm data{3..10}.txt
+   57  ls
+   58  git remote add hello https://github.com/panugantivaishnavi/test/tree/master
+   59  git pull hello master
+   60  git pull hello master[C[As
+   61  git pull hello master[C[As$ ls
+   62  git remote -v
+   63  git pull hello master
+   64  git remote show hello
+   65  history 200
+
