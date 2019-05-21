@@ -1,0 +1,60 @@
+    1  git --version
+    2  ls
+    3  git status
+    4  cd git
+    5  git --help
+    6  pwd
+    7  ls
+    8  cd python
+    9  pwd
+   10  ls
+   11  pwd
+   12  cd..
+   13  cd ..
+   14  cd Desktop
+   15  cd problem-solving-and programming
+   16  cd problem-solving-and-programming
+   17  ls
+   18  cd Problem_solving_and_programming
+   19  mkdir git
+   20  ls
+   21  cd git
+   22  pwd
+   23  cd ..
+   24  cd ..
+   25  mv Problem_solving_and_programming/ ProblemSolvingAndProgramming
+   26  ls
+   27  cd ProblemSolvingAndProgramming/
+   28  ls
+   29  cd git
+   30  git --version
+   31  git --config
+   32  git config --list
+   33  git config user.name
+   34  git config --global user.name "pitlamanasa"
+   35  git config user.name
+   36  git config user.email
+   37  git config --global user.email manasa.pitla@gmail.com
+   38  git config user.email
+   39  pwd
+   40  touch file1.txt
+   41  ls
+   42  git init
+   43  git status
+   44  git add file1.txt
+   45  git status
+   46  git commit -m
+   47  git commit -m "first file commit"
+   48  git status
+   49  echo "data in line 1" > file1.txt
+   50  cat file1.txt
+   51  git status
+   52  git add file1.txt
+   53  git status
+   54  git commit -m "second commit for file1"
+   55  git status
+   56  git log
+   57  ls
+   58  git push -u "https://github.com/pitlamanasa/program-solving-and-programming"
+   59  git clone https://github.com/pitlamanasa/program-solving-and-programming
+   60  history 100 > git-commands.txt
